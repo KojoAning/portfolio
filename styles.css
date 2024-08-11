@@ -1,0 +1,415 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Inter", sans-serif;
+  background: #000b15;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  /* padding-left: 147px;
+  padding-right: 147px; */
+  padding-top: 57px;
+  padding-bottom: 287px;
+  background: #000b15;
+  display: inline-flex;
+  flex-direction: column;
+
+  gap: 210px;
+}
+
+.intro {
+  width: 1218px;
+  height: 248px;
+  position: relative;
+}
+
+.intro-name {
+  left: 5px;
+  top: 0px;
+  position: absolute;
+  color: #148eff;
+  font-size: 25px;
+  font-family: Inter;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.intro-title {
+  width: 558px;
+  left: 3px;
+  top: 45px;
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  font-family: Inter;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.intro-description {
+  width: 715px;
+  height: 92px;
+  left: 0px;
+  top: 156px;
+  position: absolute;
+  font-size: 18px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.53);
+  font-family: Inter;
+  font-weight: 300;
+  word-wrap: break-word;
+}
+
+.skills-section {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills-intro {
+  width: 366px;
+  height: 95px;
+  position: relative;
+}
+.skills-main {
+  display: flex;
+  flex-direction: column;
+}
+.skills-title {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+}
+
+.skills-description {
+  width: 366px;
+  left: 0px;
+  top: 38px;
+  position: absolute;
+}
+
+.highlight {
+  color: #2e9bff;
+  font-size: 25px;
+  font-family: Inter;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.highlight2 {
+  color: white;
+  font-size: 25px;
+  font-family: Inter;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.skills-title span {
+  font-size: 25px;
+  font-family: Inter;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.skills-description span {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 300;
+  word-wrap: break-word;
+}
+
+.skills-list {
+  width: 498px;
+  height: 276px;
+  position: relative;
+}
+
+.skill-item {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  font-family: Inter;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.skill-item1 {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 600;
+  opacity: 0.7;
+  word-wrap: break-word;
+}
+
+.awards-section {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.awards-intro {
+  width: 366px;
+  height: 94px;
+  position: relative;
+}
+
+.awards-title {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+}
+
+.awards-description {
+  width: 366px;
+  left: 0px;
+  top: 37px;
+  position: absolute;
+}
+
+.awards-title span {
+  font-size: 25px;
+  font-family: Inter;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.awards-description span {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 300;
+  word-wrap: break-word;
+}
+
+.awards-images {
+  width: 198px;
+  height: 100px;
+  position: relative;
+}
+
+.award-image {
+  width: 90px;
+  height: 94px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+}
+
+.award-image:nth-child(2) {
+  left: 108px;
+  top: 0px;
+}
+
+.experiencesection {
+  width: 1218px;
+  height: 312px;
+  display: flex;
+  gap: 102px;
+}
+
+.experience,
+.education {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.card {
+  align-self: stretch;
+  background: rgba(255, 255, 255, 0.09);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 23px 21px;
+}
+
+.card-content {
+  width: 484px;
+  position: relative;
+}
+
+.toppart {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.position {
+  font-size: 25px;
+  font-weight: 700;
+  word-wrap: break-word;
+  color: white;
+}
+
+.place {
+  font-size: 20px;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-top: 10px;
+  color: white;
+}
+
+.commit-calendar {
+  display: grid;
+  grid-template-columns: repeat(5, 20px);
+  grid-gap: 5px;
+  margin: 20px;
+}
+
+.day {
+  width: 20px;
+  height: 20px;
+  background-color: #ebedf0;
+}
+
+.day.level-0 {
+  background-color: #ebedf0;
+}
+.day.level-1 {
+  background-color: #9be9a8;
+}
+.day.level-2 {
+  background-color: #40c463;
+}
+.day.level-3 {
+  background-color: #30a14e;
+}
+.day.level-4 {
+  background-color: #216e39;
+}
+
+.education {
+  width: 424px;
+  height: 180px;
+  position: relative;
+}
+
+.education-title {
+  width: 366px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  color: #2e9bff;
+  font-size: 25px;
+  font-family: Inter;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.education-item {
+  width: 424px;
+  left: 0px;
+  top: 55px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.education-degree {
+  color: white;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.education-place {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.education-item:nth-child(2) {
+  top: 0px;
+}
+
+.external-links {
+  width: 195px;
+  height: 28px;
+  position: relative;
+  color: white;
+  font-size: 25px;
+  font-family: Inter;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.external-links .highlight {
+  color: #2e9bff;
+}
+
+.project-section {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.project {
+  margin-bottom: 71px;
+}
+
+.project-list p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.53);
+}
+
+.project-name h5 {
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: Inter;
+  margin: 0;
+}
+
+.project button {
+  height: 48px;
+  width: 180px;
+  background-color: #2e9bff;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.skills-main button {
+  margin-top: 15px;
+  height: 48px;
+  width: 180px;
+  background-color: #2e9bff;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+}
