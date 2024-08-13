@@ -17,7 +17,7 @@ body {
   width: 100%;
   /* padding-left: 147px;
   padding-right: 147px; */
-  padding-top: 57px;
+  padding-top: 100px;
   padding-bottom: 287px;
   background: #000b15;
   display: inline-flex;
@@ -33,7 +33,7 @@ body {
 }
 
 .intro-name {
-  left: 5px;
+  left: 0px;
   top: 0px;
   position: absolute;
   color: #148eff;
@@ -208,7 +208,34 @@ body {
   justify-content: space-between;
   /* position: relative; */
 }
-
+header {
+  background-color: #000b15;
+  color: white;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  display: flex;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0 15px;
+  font-size: 18px;
+  line-height: 40px;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #f0f0f0;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
 .award-image {
   width: 166px;
   height: 177px;
