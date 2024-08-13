@@ -70,8 +70,8 @@ body {
 }
 
 .skills-section {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -157,8 +157,8 @@ body {
 }
 
 .awards-section {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -200,23 +200,28 @@ body {
 }
 
 .awards-images {
-  width: 198px;
-  height: 100px;
-  position: relative;
+  display: flex;
+  /* background-color: greenyellow; */
+
+  height: 177px;
+  flex-direction: row;
+  justify-content: space-between;
+  /* position: relative; */
 }
 
 .award-image {
-  width: 90px;
-  height: 94px;
+  width: 166px;
+  height: 177px;
   left: 0px;
+  padding-right: 30px;
   top: 0px;
-  position: absolute;
+  /* position: absolute; */
 }
 
-.award-image:nth-child(2) {
+/* .award-image:nth-child(2) {
   left: 108px;
   top: 0px;
-}
+} */
 
 .experiencesection {
   width: 1218px;
@@ -255,8 +260,8 @@ body {
 .toppart {
   display: flex;
   flex-direction: row;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 .position {
   font-size: 25px;
@@ -365,8 +370,8 @@ body {
 }
 
 .project-section {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .project-list {
@@ -382,7 +387,7 @@ body {
 .project-list p {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.53);
 }
