@@ -23,7 +23,7 @@ body {
   display: inline-flex;
   flex-direction: column;
 
-  gap: 210px;
+  gap: 150px;
 }
 
 .intro {
@@ -91,6 +91,11 @@ body {
   left: 0px;
   top: 0px;
   position: absolute;
+}
+
+.toppart {
+  display: flex;
+  flex-direction: row;
 }
 
 .skills-description {
